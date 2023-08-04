@@ -1,0 +1,76 @@
+CSS Styling Explained
+
+Default (GPT-3.5)
+
+User
+Explain how does the code works <title>Document</title> <style> *{ margin: 0; padding: 0; box-sizing: borderboard; } body{ height: 100vh; display: flex; align-items: center; justify-content: center;
+    }
+    .container{
+        display: flex;
+        flex-direction: column;
+        width: 300px;
+        padding: 15px;
+        border: 1px solid
+        skyblue;
+        border-radius: 5px;
+    }
+    input{
+        margin: 5px 0px;
+        height: 35px;
+        padding: 7px;
+    }
+    button{
+        height: 35px;
+        margin: 5px 0px;
+        background-color:skyblue;
+        border: none;
+        border-radius: 5px;
+        color:#333;
+    }
+    button:hover{
+        background-color: #333;
+        color: skyblue;
+    }
+</style>
+Explain detaily
+
+ChatGPT
+This code appears to be an HTML document that includes inline CSS styles. Let's break it down step by step:
+
+The <title> tag sets the title of the document to "Document," which will be displayed in the browser's title bar or tab.
+
+The <style> tag contains CSS rules that apply styles to the elements within the document. The * selector selects all elements on the page and applies the following styles:
+
+margin: 0; padding: 0;: Removes any default margins and paddings from all elements.
+box-sizing: border-box;: Sets the box-sizing property to "border-box," which means the specified width and height of elements will include padding and borders.
+The body selector styles the body element of the document. The following styles are applied:
+
+height: 100vh;: Sets the height of the body to 100 viewport height, meaning it will take up the entire visible area of the browser window.
+display: flex;: Uses the flexbox layout to arrange the child elements.
+align-items: center;: Aligns the child elements vertically at the center of the body.
+justify-content: center;: Aligns the child elements horizontally at the center of the body.
+The .container class styles a container element with the following properties:
+
+display: flex;: Uses the flexbox layout to arrange the child elements.
+flex-direction: column;: Arranges the child elements in a column layout.
+width: 300px;: Sets the width of the container to 300 pixels.
+padding: 15px;: Adds 15 pixels of padding around the container.
+border: 1px solid skyblue;: Adds a 1-pixel solid border with the color "skyblue."
+border-radius: 5px;: Rounds the corners of the container with a 5-pixel radius.
+The input selector styles all input elements on the page with the following properties:
+
+margin: 5px 0px;: Adds 5 pixels of margin above and below the input element and no margin on the left and right.
+height: 35px;: Sets the height of the input elements to 35 pixels.
+padding: 7px;: Adds 7 pixels of padding within the input elements.
+The button selector styles all button elements with the following properties:
+
+height: 35px;: Sets the height of the button elements to 35 pixels.
+margin: 5px 0px;: Adds 5 pixels of margin above and below the button element and no margin on the left and right.
+background-color: skyblue;: Sets the background color of the button to "skyblue."
+border: none;: Removes the border from the button.
+border-radius: 5px;: Rounds the corners of the button with a 5-pixel radius.
+color: #333;: Sets the text color of the button to "#333" (a dark gray).
+The button:hover selector styles the button when the user hovers over it. The following styles are applied:
+
+background-color: #333;: Changes the background color of the button to "#333" (a dark gray) when hovered.
+color: skyblue;: Changes the text color of the button to "skyblue" when hovered.
